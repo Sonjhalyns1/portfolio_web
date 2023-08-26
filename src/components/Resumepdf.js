@@ -13,7 +13,7 @@ const Resumepdf = () => {
             <Page height="600" width= " 1000" pageNumber={pageNumber} />
         </Document>
         <p>
-        Page {pageNumber} of {numPage}
+         Page {pageNumber} of {numPage}
         </p>
     </div>
   )

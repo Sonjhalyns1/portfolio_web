@@ -3,6 +3,7 @@ import WorkImg from '../assets/workImg.jpeg';
 import realEstate from '../assets/realestate.jpg';
 import Cryptosearch from '../assets/Cryptosearch.png'
 import Facebook from '../assets/facebook.png'
+import Portfolio from '../assets/portfolio.png'
 
 const Work = () => {
   return (
@@ -34,12 +35,12 @@ const Work = () => {
                 </ul>
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://fantastic-tartufo-09be32.netlify.app/'>
+                <a href='https://phenomenal-llama-a78e15.netlify.app'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='/'>
+                <a href='https://github.com/Sonjhalyns1/Cryptosearch'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -66,12 +67,12 @@ const Work = () => {
               <div className='pt-8 text-center'>
                 <a href='/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
+                    N/A
                   </button>
                 </a>
                 <a href='/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
+                    N/A
                   </button>
                 </a>
               </div>
@@ -79,13 +80,18 @@ const Work = () => {
           </div>
             {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${Portfolio})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+                My Portfolio Website
+              </span>
+              <span className='text-center'>
+              <ul>
+              Using React.js I built a fully responsive portfolio website that displays projects that I’ve worked on and projects that I am currently working on
+              </ul>
               </span>
               <div className='pt-8 text-center'>
                 <a href='/'>
@@ -93,7 +99,7 @@ const Work = () => {
                     Demo
                   </button>
                 </a>
-                <a href='/'>
+                <a href='https://github.com/Sonjhalyns1/finalportfolio'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>

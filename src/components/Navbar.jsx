@@ -18,19 +18,19 @@ const Navbar = () => {
         <div className='hidden md:flex'>
             <ul className='hidden md:flex'>
                 <li> <Link  to="home"  smooth={true}  duration={500}>
-          Home
+          <h4><span>Home</span></h4>
         </Link></li>
                 <li><Link  to="about"  smooth={true}  duration={500}>
-          About
+                <h4><span>About</span></h4>
         </Link></li>
                 <li><Link  to="skills"  smooth={true}  duration={500}>
-          skills
+                <h4><span>Skills</span></h4>
         </Link></li>
                 <li><Link  to="work"  smooth={true}  duration={500}>
-          Projects
+                <h4><span>Projects</span></h4>
         </Link></li>
         <li><Link  to="contact"  smooth={true}  duration={500}>
-          Contact
+        <h4><span>Contact</span></h4>
         </Link></li>
             </ul>
         </div>
@@ -76,13 +76,13 @@ const Navbar = () => {
                 </li>
                 <li className='w-[160px] h-[60px]   flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333] ' >
                     <a className='flex justify-between items-center w-full text-gray-300' 
-                    href='/'>
+                    href='https://github.com/Sonjhalyns1'>
                         Github <FaGithub size={30}/>
                     </a>
                 </li>
                 <li className='w-[160px] h-[60px]   flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0E76A8] ' >
                     <a className='flex justify-between items-center w-full text-gray-300' 
-                    href='/'>
+                    href='https://www.linkedin.com/in/sonjhalyns-augustin-312787249/'>
                         Linkedin <FaLinkedin size={30}/>
                     </a>
                 </li>
