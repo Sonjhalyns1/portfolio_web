@@ -38,6 +38,9 @@ const About = () => {
                     <li>
                     One thing I've discovered is that balance is essential. I find that whether I'm coding or discovering nature's beauties, each feeds into the other, producing a harmonic combination.
                     </li>
+                    <li>
+                        
+                    </li>
                 
                 
                 
