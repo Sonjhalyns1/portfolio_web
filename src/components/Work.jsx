@@ -1,6 +1,9 @@
 import React from 'react'
-import WorkImg from '../assets/workImg.jpeg';
-import realEstate from '../assets/realestate.jpg';
+
+import Snapscape from '../assets/snapscape.png';
+import Breastcancer from '../assets/breast_model.png';
+import Shopcart from '../assets/shop_cart.png';
+
 import Cryptosearch from '../assets/Cryptosearch.png'
 import Facebook from '../assets/facebook.png'
 import Portfolio from '../assets/portfolio.png'
@@ -20,6 +23,34 @@ const Work = () => {
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
             {/* Grid Item */}
+          <div
+            style={{ backgroundImage: `url(${Snapscape})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                <ul className='text-center'>
+                  Snapscape
+                </ul>
+                <ul className='text-sm italic text-center'>
+                  Cryptosearch is a fully functional cryptocurrency website that utilizes React.js, Redux Toolkit.
+                </ul>
+              </span>
+              <div className='pt-8 text-center'>
+                <a href='https://snapscape.vercel.app/'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Demo
+                  </button>
+                </a>
+                <a href='https://github.com/Sonjhalyns1/snapscape'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
           <div
             style={{ backgroundImage: `url(${Cryptosearch})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -41,6 +72,62 @@ const Work = () => {
                   </button>
                 </a>
                 <a href='https://github.com/Sonjhalyns1/Cryptosearch'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${Breastcancer})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                <ul className='text-center'>
+                  Breast Models
+                </ul>
+                <ul className='text-sm italic text-center'>
+                  Cryptosearch is a fully functional cryptocurrency website that utilizes React.js, Redux Toolkit.
+                </ul>
+              </span>
+              <div className='pt-8 text-center'>
+                <a href='https://sage-hummingbird-c45315.netlify.app/'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Demo
+                  </button>
+                </a>
+                <a href='https://github.com/Sonjhalyns1/breast-cancer'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${Shopcart})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                <ul className='text-center'>
+                  Shopping cart
+                </ul>
+                <ul className='text-sm italic text-center'>
+                  Cryptosearch is a fully functional cryptocurrency website that utilizes React.js, Redux Toolkit.
+                </ul>
+              </span>
+              <div className='pt-8 text-center'>
+                <a href='https://agglomerative-begin.000webhostapp.com/'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Demo
+                  </button>
+                </a>
+                <a href='https://github.com/Sonjhalyns1/Shopping-cart'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>

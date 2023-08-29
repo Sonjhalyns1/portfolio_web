@@ -35,13 +35,6 @@ const About = () => {
                     <li>
                     I'm all about being active as well. Whether I'm lifting weights or going on a hike with some friends, I feel that a healthy body fuels a focused mind.
                     </li>
-                    <li>
-                    One thing I've discovered is that balance is essential. I find that whether I'm coding or discovering nature's beauties, each feeds into the other, producing a harmonic combination.
-                    </li>
-                    <li>
-                        more
-
-                    </li>
                 
                 
                 
